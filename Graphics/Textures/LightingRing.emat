@@ -1,0 +1,8 @@
+Particle {
+ AlbedoMap "{E1E9074EC679AF28}Pole_Anomaly/Graphics/Particles/Textures/edds/LightingRing.edds" 
+ Emissive 1 1 1 1
+ CastShadow 1
+ TileU 3
+ Softness 1
+ CameraBlendFar 0.001
+}

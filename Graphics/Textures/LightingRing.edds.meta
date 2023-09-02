@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E1E9074EC679AF28}Pole_Anomaly/Graphics/Particles/Textures/edds/LightingRing.edds"
+ Author "desktop-vm4selo"
+ ChangeDate 1261628297
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "LightingRing.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

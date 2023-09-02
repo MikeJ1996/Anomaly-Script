@@ -1,0 +1,111 @@
+EffectDef {
+ MinFPS 1
+ Emitors {
+  EmitorDef SP {
+   ShapeType Ellipse
+   ShapeSize 12 2 2
+   ConeAngle 90 90 90
+   MaxNum 2500
+   BirthRate 2500
+   BirthRateRND 800
+   Offset 0.02646 3.48432 0
+   Angles 0 0 88.99998
+   Material "{A5D9C9A3A06FBBB8}Pole_Anomaly/Graphics/Textures/LightingRing.emat"
+   CenterX -0.294
+   SizeMultiplier 0.1
+   SizeRND 0.01
+   RandomRotDir 1
+   RotMultiplier 1000
+   StreakFullUV 0
+   RandomAngle 0
+   Sort 1
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 0
+   VelAffect 10
+   AirResistance 120
+   AirResistanceRND 0
+   Spring 0.0002
+   AnimOnce 1
+   AnimFPS 0
+   RandomFrame 0
+   LifeTime 1
+   LifeTimeRND 0
+   Color {
+    0 0 0 0 1 0 0 0
+   }
+   Alpha {
+    0 0 0.16557 1 0.3918 1 0.73363 1 1 0
+   }
+  }
+  EmitorDef wingr {
+   ShapeType Ellipse
+   ShapeSize 5 1 1
+   ConeAngle 90 90 90
+   MaxNum 2500
+   BirthRate 2500
+   BirthRateRND 800
+   Offset -2.17773 5.8553 -0.07968
+   Angles -0.33113 -9.85385 21.46632
+   Material "{A5D9C9A3A06FBBB8}Pole_Anomaly/Graphics/Textures/LightingRing.emat"
+   SizeMultiplier 0.1
+   SizeRND 0.01
+   RandomRotDir 1
+   RotMultiplier 1000
+   RandomAngle 1
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 0
+   VelAffect 10
+   AirResistance 120
+   AirResistanceRND 0
+   Spring 0.0002
+   AnimOnce 1
+   AnimFPS 0
+   RandomFrame 0
+   LifeTime 1
+   LifeTimeRND 0
+   Color {
+    0 0 0 0 1 0 0 0
+   }
+   Alpha {
+    0 0 0.17869 0.98101 0.41706 1 0.8975 1 1 0
+   }
+  }
+  EmitorDef wingl {
+   ShapeType Ellipse
+   ShapeSize 5 1 1
+   ConeAngle 90 90 90
+   MaxNum 2500
+   BirthRate 2000
+   BirthRateRND 750
+   Offset 2.26918 5.8191 0.00723
+   Angles 0 0 159.99998
+   Material "{A5D9C9A3A06FBBB8}Pole_Anomaly/Graphics/Textures/LightingRing.emat"
+   SizeMultiplier 0.1
+   SizeRND 0.01
+   RandomRotDir 1
+   RotMultiplier 1000
+   RandomAngle 1
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 0
+   VelAffect 20
+   AirResistance 120
+   AirResistanceRND 0
+   Spring 0.0002
+   Wind 0
+   AnimOnce 1
+   AnimFPS 0
+   RandomFrame 0
+   LifeTime 1
+   LifeTimeRND 0
+   Color {
+    0 0 0 0 1 0 0 0
+   }
+   Alpha {
+    0 0 0.22623 1 0.81639 1 0.87541 0 1 0
+   }
+  }
+ }
+}
