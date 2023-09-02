@@ -51,45 +51,7 @@ class CfgVehicles
         scope = 2;
         displayName = "Totem Pole Anomaly";
         descriptionShort = "Totem Pole shaped anomaly";
-        model = "\dz\weapons\explosives\fakeexplosion.p3d"; 
+        model = "Pole_Anomaly\Data\Pole\Totem_Pole.p3d"; 
         weight = 9999999;
     };
-};
-class CfgAmmo
-{
-	class DefaultAmmo;
-
-	class Totem_Pole: DefaultAmmo
-	{
-		indirectHit=1;
-		indirectHitRange=1;
-		indirectHitRangeMultiplier=1;
-		explosive=1;
-		typicalSpeed=1;
-		initSpeed=1;
-		simulation="shotShell";
-		simulationStep=0.050000001;
-        effect="Totem_PoleEffectParticle";
-		class DamageApplied
-		{
-			type="FragGrenade";
-			class Health
-			{
-				damage=0;
-			};
-			class Blood
-			{
-				damage=0;
-			};
-			class Shock
-			{
-				damage=10;
-			};
-		};
-		class NoiseExplosion
-		{
-			strength=210;
-			type="shot";
-		};
-	};
 };
